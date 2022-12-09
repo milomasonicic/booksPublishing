@@ -1,0 +1,219 @@
+
+
+/*.collection .txtContainer {
+	width: 55%;
+	height: 100%;
+	background-image: linear-gradient(whitesmoke,ghostwhite,whitesmoke);
+}
+
+.collection .txtContainer .bigCollection {
+	margin: 40px 30px;
+}
+
+.collection .txtContainer .bigCollection h1 {
+	font-family: Verdana;
+	color: #23233d;
+	margin: 0px;
+}
+
+.collection .txtContainer p {
+	padding: 0px 30px;
+	font-size: 14px;
+}
+
+.collection .txtContainer #purpleButton {
+	margin-left: 30px;
+}
+
+/*firstcomic*/
+
+/*.collection .firstComic {
+	width: 15%;
+	height: 100%;
+	background-image: linear-gradient(whitesmoke,whitesmoke,whitesmoke);
+	position: relative;
+}
+
+.firstComic .firstComicclip {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top: -40px;
+}
+
+.firstComic .firstComicclip img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.firstComic p {
+	font-size: 11px;
+	font-style: italic;
+	position: relative;
+	top: -40px;
+}
+
+
+
+/*secondComic*/
+
+/*.collection .secondComic {
+	width: 30%;
+	height: 100%;
+	display: flex;
+}
+
+.collection .secondComic .comicBox {
+	background-color: #23233d;
+	width: 100%;
+	height: 75%;
+	align-self: flex-end;
+	display: flex;
+	align-items
+	: center;
+	flex-direction: column;
+	
+}
+
+.collection .secondComic .comicBox .comicBoxclip {
+	width: 50%;
+	height: 70%;
+	border: 2px solid green;
+	position: relative;
+	top: -60px;
+}
+
+.collection .secondComic .comicBox .comicBoxclip img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.comicBox p {
+	font-size: 11px;
+	color: white;
+	padding: 5px 25px;
+	position: relative;
+	top: -60px;
+	font-style: italic;
+}*/
+
+/*comic*/
+.comics {
+	margin-top: 150px;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	border: 2px solid darkred;
+}
+
+/*text*/
+
+.comics .txtComic {
+	width: 55%;
+	height: 100%;
+	border: 2px solid rebeccapurple;
+	display: flex;
+	flex-direction: column;
+	align-items: ;
+}
+
+.txtComic h2 {
+	font-family: Verdana;
+	font-size: 2rem;
+	color: #23233d;
+	font-style: bold;
+	margin: 0;
+	padding: 40px;
+}
+
+.txtComic p {
+	padding-left: 40px;
+}
+
+.txtComic #purpleButton {
+	margin-top: 30px;
+}
+
+/*firstComic*/
+
+.comics .firstComic  {
+	width: 13%;
+	height: 100%;
+	border: 2px solid green;
+}
+
+.comics .firstComic img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*second comic, girl*/
+
+.comics .secondComic {
+	width: 32%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.comics .secondComic img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 750px) {
+
+	/*comic/flex*/
+	.comics {
+	margin-top: 350px;
+	width: 90%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid darkred;
+    }
+
+    /*text*/
+
+    .comics .txtComic {
+   	order: 2; 	
+	width: 100%;
+	height: 55%;
+	border: 2px solid rebeccapurple;
+	display: flex;
+	flex-direction: column;
+    }
+
+    .comics .txtComic h2{
+    	font-size: 1.1rem;
+    	padding-bottom: 10px;
+    }
+
+    .comics .txtComic p {
+    	font-size: 0.8rem;
+    }
+
+    /*comic images*/
+    .comics .firstComic {
+    order: 1;	
+	width: 100%;
+	height: 20%;
+	border: 2px solid green;
+    }
+
+    .comics .secondComic  {
+    order: 3;	
+	width: 100%;
+	height: 25%;
+	border: 2px solid green;
+    }
+	
+}
+
+
+
+
+

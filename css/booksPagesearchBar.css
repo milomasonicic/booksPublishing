@@ -1,0 +1,101 @@
+
+  .SearchBox {
+	width: 60%;
+	height: 300px;
+	border: 2px solid darkred;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*3 main divs*/
+
+.SearchBox .inputTitle {
+	width: 100%;
+	height: 20%;
+}
+
+.SearchBox input {
+	position: relative;
+	width: 90%;
+	height: 10%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	font-style: italic;
+}
+
+.SearchBox .genreButtons {
+	width: 90%;
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.SearchBox .genreButtons .categoryBox {
+	min-width: 60px;
+	height: 35%;
+	background-color: green;
+	border: 1px solid white;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		
+}
+
+.SearchBox .genreButtons .categoryBox a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+	font-family: monospace;
+	padding: 5px;	
+}
+
+.inputTitle h1 {
+ 	margin: 0;
+ 	padding: 1px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 3.8vw;
+ }
+
+/*color Button*/
+
+#orangeButton {
+	background-color:darkorange;
+}
+#redButton {
+	background-color: #FF3366;
+}
+#blueButton {
+	background-color: #3399FF;
+}
+#yellowButton {
+	background-color:#FA9917;
+}
+
+#pink {
+	background-color: deeppink;
+}
+
+#black {
+	background-color: crimson;
+}
+
+/*searchBar*/
+
+@media (max-width:750px) {
+	
+}
+
+
+
+
+
+

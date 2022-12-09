@@ -1,0 +1,104 @@
+.newBooks {
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+/*title excluded from flex*/
+
+
+.newBooks > h1 {
+	position: absolute;
+	top: -100px;
+	margin: 0 auto;
+	font-family: Verdana;
+	color: #23233d;
+}
+
+
+/*newBookbow flex*/
+
+.newBookbox {
+	width: 20%;
+	height: 300px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.newBookbox .newBookimage {
+	width: 96%;
+	height: 70%;
+	margin-top: 2%;
+	background-color: #DCD8C4;
+}
+
+
+/*newBookimage container*/
+
+.newBookimage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.newBookimage .newBookimgContainer {
+	width: 40%;
+	height: 70%;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.newBookimage .newBookimgContainer img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*newBooktext Container*/
+
+.newBooktext {
+	width: 96%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+/*buttonstyle*/
+
+.newBooktext .newBookbutton {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.newBookbutton button {
+	background-color: #23233d;
+	border-radius: 8px;
+	height: 20px;
+	color: whitesmoke;
+	border: none;
+}
+
+/*newbooktext newbooktitle style*/
+
+.newBooktitle > h4 {
+	margin: 0;
+}
+
+.newBooktitle > h5 {
+	margin: 0;
+	font-style: italic;
+}
+
+/*pricestyle*/
+
+.newBooktext:nth-child(2) p {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+}
+
+

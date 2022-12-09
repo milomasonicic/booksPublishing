@@ -1,0 +1,187 @@
+
+.writerWeek {
+	margin-top: 150px;
+	width: 100%;
+	height: 400px;
+	background-color: whitesmoke;
+	display: flex;
+}
+
+/*image*/
+
+.writerImage {
+	width: 33%;
+	height: 100%;
+	background-color: darkred;
+}
+
+.writerImage img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 180px;
+		
+}
+
+/*text week*/
+
+.textWeek {
+	width: 62%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.textWeek .textWrap {
+	width: 100%;
+	height: 60%;
+}
+
+.textWeek .fourBookswrap {
+	width: 100%;
+	height: 40%;
+}
+
+.fourBooks {
+	position: relative;
+	top: 65px;
+}
+
+/*textstyle*/
+
+#italicWeek {
+	font-size: 2rem;
+	color: #23233d;
+	font-style: italic;
+	margin: 0;
+	padding: 40px;
+	padding-bottom: 0;
+}
+
+#boldWeek {
+	font-family: Verdana;
+	font-size: 2rem;
+	color: #23233d;
+	font-style: bold;
+	margin: 0;
+	padding-left: 40px;
+	padding-top: 2px;
+}
+
+.textWeek h2:nth-child(2):{
+	font-style: italic;
+	color: white;
+}
+
+.textWeek p {
+	color:#23233d;
+	padding: 40px;
+}
+
+/*fourBooks*/
+
+.fourBookswrap {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fourBooks {
+	margin-right: -30px;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fourBooks .item {
+	width: 25%;
+	height: 100%;
+}
+
+.fourBooks .item img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+@media (max-width: 750px) {
+	
+	.writerWeek {
+	width: 100%;	
+	height: 120vh;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.writerImage {
+	width: 100%;
+	height: 40%;
+	}
+
+	.textWeek {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	}
+
+	.textWeek .textWrap {
+	width: 100%;
+	height: 30%;
+	background-color: darkred;
+	}
+
+	.textWrap #italicWeek, #boldWeek {
+		padding: 0;
+		display: inline-block;
+		text-align: center;
+	} 
+
+	.textWrap p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.textWeek .fourBookswrap {
+	width: 100%;
+	height: 70%;
+	background-color: ghostwhite;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.fourBooks {
+	margin-right: 0px;
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+	.fourBooks .item {
+	width: 25%;
+	height: 50%;
+	}
+
+.fourBooks .item img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+	/*.fourBooks {
+		width: 100%;
+		height: 50%;
+		top: 0;
+	}*/
+
+
+
+}
+
+
+
+
+
