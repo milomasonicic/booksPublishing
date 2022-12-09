@@ -1,4 +1,4 @@
-.newBooks {
+/*.newBooks {
 	margin-top: 200px;
 	display: flex;
 	justify-content: space-between;
@@ -8,7 +8,7 @@
 /*title excluded from flex*/
 
 
-.newBooks > h1 {
+/*.newBooks > h1 {
 	position: absolute;
 	top: -100px;
 	margin: 0 auto;
@@ -19,7 +19,7 @@
 
 /*newBookbow flex*/
 
-.newBookbox {
+/*.newBookbox {
 	width: 20%;
 	height: 300px;
 	border: 1px solid black;
@@ -38,7 +38,7 @@
 
 /*newBookimage container*/
 
-.newBookimage {
+/*.newBookimage {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -58,7 +58,7 @@
 
 /*newBooktext Container*/
 
-.newBooktext {
+/*.newBooktext {
 	width: 96%;
 	height: 30%;
 	display: flex;
@@ -68,7 +68,7 @@
 
 /*buttonstyle*/
 
-.newBooktext .newBookbutton {
+/*.newBooktext .newBookbutton {
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
@@ -84,7 +84,7 @@
 
 /*newbooktext newbooktitle style*/
 
-.newBooktitle > h4 {
+/*.newBooktitle > h4 {
 	margin: 0;
 }
 
@@ -95,10 +95,63 @@
 
 /*pricestyle*/
 
-.newBooktext:nth-child(2) p {
+/*.newBooktext:nth-child(2) p {
 	font-size: 20px;
 	font-weight: 700;
 	margin: 0;
+}*/
+
+.allBooks {
+	width: 100%;
+	height: 800px;
+	border: 2px solid darkred;
+}
+
+.allBooks .allBooksHeadline {
+	width: 100%;
+	height: 100px;
+	border: 2px solid green;
+}
+
+.allBooks .row {
+	width: 100%;
+	height: 300px;
+	border: 2px solid rebeccapurple;
+}
+
+.allBooks .loadMore {
+	width: 100%;
+	height: 100px;
+	border: 2px solid pink;
+}
+
+/*rows div*/
+
+.row .allBookbox {
+	width: 17%;
+	height: 80%;
+	border: 2px solid black;
+}
+
+.row .allBookbox .allBookimage {
+	width: 90%;
+	height: 70%;
+	border: 2px solid yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row .allBookbox .allBookimage .allBookimgClip {
+	width: 40%;
+	height: 70%;
+	border: 2px solid blue;
+}
+
+.row .allBookbox .allBookimage .allBookimgClip img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
 
