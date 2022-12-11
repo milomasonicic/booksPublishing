@@ -102,7 +102,7 @@
 /*comic*/
 .comics {
 	margin-top: 150px;
-	width: 100%;
+	width: 80%;
 	height: 400px;
 	display: flex;
 	border: 2px solid darkred;

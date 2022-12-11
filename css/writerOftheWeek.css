@@ -1,7 +1,7 @@
 
 .writerWeek {
 	margin-top: 150px;
-	width: 100%;
+	width: 80%;
 	height: 400px;
 	background-color: whitesmoke;
 	display: flex;
@@ -34,18 +34,19 @@
 
 .textWeek .textWrap {
 	width: 100%;
-	height: 60%;
+	
 }
 
 .textWeek .fourBookswrap {
 	width: 100%;
-	height: 40%;
 }
 
-.fourBooks {
-	position: relative;
-	top: 65px;
+.fourBookswrap img {
+	padding: 20px;
 }
+
+
+
 
 /*textstyle*/
 
@@ -104,26 +105,72 @@
 	height: 100%;
 }
 
+/*responsive*/
+
+
+@media (max-width: 1200px) {
+
+	.fourBookswrap img {
+	 padding: 10px;
+	 width: 90px;
+	}
+}
+
+@media (max-width: 900px) {
+
+	.fourBookswrap img {
+	 padding: 5px;
+	 width: 90px;
+	}
+}
+
+@media (max-width: 880px) {
+
+	.fourBookswrap img {
+	 position: relative;
+	 bottom: 35px;		
+	 padding: 5px;
+	 width: 80px;
+	}
+}
+
 
 
 @media (max-width: 750px) {
 	
 	.writerWeek {
 	width: 100%;	
-	height: 120vh;
+	height: 70vh;
 	background-color: whitesmoke;
 	display: flex;
 	flex-direction: column;
 	}
 
 	.writerImage {
+		width: 100%;
+		height: 30vh;
+	}
+
+	.textWeek {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.textWrap {
+		width: 100%;
+		background-color: beige;
+	}
+
+
+	/*.writerImage {
 	width: 100%;
-	height: 40%;
+	height: 45%;
 	}
 
 	.textWeek {
 	width: 100%;
-	height: 60%;
+	height: 30%;
 	display: flex;
 	}
 
@@ -168,7 +215,7 @@
 .fourBooks .item img {
 	object-fit: cover;
 	width: 100%;
-	height: 100%;
+	height: 100%;*/
 }
 
 	/*.fourBooks {
