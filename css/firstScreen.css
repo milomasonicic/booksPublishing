@@ -13,6 +13,7 @@
 }
 
 .headline h1:first-child {
+	padding-left: 10px;
 	color: white;
 	font-size: 2.8em;
 }
@@ -22,6 +23,8 @@
 }
 
 .headline p {
+	padding-left: 10px;
+	margin-right: 5px;
 	color: white;
 }
 
@@ -30,8 +33,10 @@
 }
 
 #mainButton {
-	width: 30%;
-	padding: 2% 2% ;
+	min-width:80px;
+	max-width: 120px;
+	padding: 10px;
+	margin-left: 10px;
 	background-color: #FF1243; 
   	border: none;
   	color: white;
@@ -62,6 +67,7 @@
 	width: 100%;
 	border-top-right-radius: 40px;
 	border-top-left-radius: 40px;
+
 }
 
 .mainBooks h5,h4 {
@@ -75,11 +81,10 @@
 
 	.mainBook {
 		width: 90%;
-		background-color: darkred;
 		margin: 0 auto;
 		padding: 0px;
-		border: 1px solid white;
 	}
+
 	.mainBooks img {
 		width: 90%;
 		display: block;
@@ -88,90 +93,93 @@
 	}
 }
 
+@media (max-width: 860px) {
 
-
-@media (max-width: 750px) {
-
-	.firstScreen {
-	height: 80vh;
+	.headline {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
-}
+	justify-content: center;
+	}
 
-.mainBooks {
-	margin-top: 70px;
-	box-sizing: border-box;
-}
-
-.headline {
-	order: 2;
-	width: 100%;
-	height: 30%;
-	babackground: url(../images/backgroundbooks.png);
-}
-
-.headline h1:first-child {
-	display: none;
-}
-
-#specialh1 {
-	display: inline-block;
-	color: white;
-	font-size: 7vw;
-	position: relative;
-	top: -20px;
-	margin: 0px auto;
-}
-
-#mainButton {
-	min-width: 80px;
-	margin: 0 auto;
-}
-
-
-.headline p {
-	display: none;
-}
-
-
-/*mainBooks*/
-
-
-.mainBooks {
-	order: 1;
-	width: 100%;
-	/*height: 70%;*/
-	background-image: linear-gradient(#23244d, #23233d, #23211d);
-	display: flex;
-}
+	.mainBooks {
+		width: 50%;
+	}
 
 }
 
-@media (max-width: 630px) {
+@media (max-width: 680px) {
 
 	.firstScreen {
-	height: 70vh;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	}
+
+	.headline h1:first-child {
+	display: none;
+	}
+
+	.headline p {
+		display: none;
+	}
+
+	#mainButton {
+		width: 120px;
+		margin: 0 auto;
+	}
+
+	#specialh1 {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		font-size: 2em;
+		padding-bottom: 10px;
 	}
 
 	.headline {
-	order: 2;
 	width: 100%;
-	height: 40%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	order: 2;
+	}
+
+	.mainBooks {
+		width: 100%;
+		height: 70%;
+		order: 1;
 	}
 
 }
 
-@media (max-width: 530px) {
-	.firstScreen {
-		height: 60vh;
+@media (max-width: 515px) {
+	.mainBooks div:first-child {
+		display: none;
+	}
+
+	.mainBooks .mainBook {
+		width: 40%;
+	}
+
+	.mainBooks .mainBook h4, h5 {
+		font-size: 90%;
 	}
 }
 
-@media (max-width: 450px) {
-	.firstScreen {
-		height: 50vh;
+ @media (max-width: 360px) {
+
+	.mainBook strong , i {
+		font-size: 80%;
 	}
 }
+
+
+
+
+
 
 
 

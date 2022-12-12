@@ -2,7 +2,7 @@
 .writerWeek {
 	margin-top: 150px;
 	width: 80%;
-	height: 400px;
+	height: 480px;
 	background-color: whitesmoke;
 	display: flex;
 }
@@ -10,7 +10,7 @@
 /*image*/
 
 .writerImage {
-	width: 33%;
+	width: 36%;
 	height: 100%;
 	background-color: darkred;
 }
@@ -26,207 +26,63 @@
 /*text week*/
 
 .textWeek {
-	width: 62%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
+	width: 60%;
+	padding: 30px;
 }
 
-.textWeek .textWrap {
-	width: 100%;
-	
-}
-
-.textWeek .fourBookswrap {
-	width: 100%;
-}
-
-.fourBookswrap img {
-	padding: 20px;
-}
-
-
-
-
-/*textstyle*/
-
-#italicWeek {
-	font-size: 2rem;
-	color: #23233d;
-	font-style: italic;
-	margin: 0;
-	padding: 40px;
-	padding-bottom: 0;
-}
-
-#boldWeek {
-	font-family: Verdana;
-	font-size: 2rem;
-	color: #23233d;
-	font-style: bold;
-	margin: 0;
-	padding-left: 40px;
-	padding-top: 2px;
-}
-
-.textWeek h2:nth-child(2):{
-	font-style: italic;
-	color: white;
+.textWeek h2 {
+	padding-top:55px ;
 }
 
 .textWeek p {
-	color:#23233d;
-	padding: 40px;
+	padding-right: 40px;
 }
 
-/*fourBooks*/
-
-.fourBookswrap {
-	display: flex;
-	justify-content: flex-end;
+.textWeek h1 {
+	padding-bottom: 55px;
 }
 
-.fourBooks {
-	margin-right: -30px;
-	width: 50%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.fourBooks .item {
-	width: 25%;
-	height: 100%;
-}
-
-.fourBooks .item img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
 
 /*responsive*/
 
+@media (max-width:920px) {
 
-@media (max-width: 1200px) {
-
-	.fourBookswrap img {
-	 padding: 10px;
-	 width: 90px;
-	}
-}
-
-@media (max-width: 900px) {
-
-	.fourBookswrap img {
-	 padding: 5px;
-	 width: 90px;
-	}
-}
-
-@media (max-width: 880px) {
-
-	.fourBookswrap img {
-	 position: relative;
-	 bottom: 35px;		
-	 padding: 5px;
-	 width: 80px;
-	}
-}
-
-
-
-@media (max-width: 750px) {
-	
 	.writerWeek {
-	width: 100%;	
-	height: 70vh;
-	background-color: whitesmoke;
-	display: flex;
-	flex-direction: column;
-	}
-
-	.writerImage {
-		width: 100%;
-		height: 30vh;
-	}
-
-	.textWeek {
-		width: 100%;
-		display: flex;
 		flex-direction: column;
 	}
 
-	.textWrap {
-		width: 100%;
-		background-color: beige;
-	}
-
-
-	/*.writerImage {
+	.writerImage {
 	width: 100%;
-	height: 45%;
+	/*height: 100%;*/
+	background-color: darkred;
 	}
 
 	.textWeek {
 	width: 100%;
-	height: 30%;
-	display: flex;
-	}
-
-	.textWeek .textWrap {
-	width: 100%;
-	height: 30%;
-	background-color: darkred;
-	}
-
-	.textWrap #italicWeek, #boldWeek {
-		padding: 0;
-		display: inline-block;
-		text-align: center;
-	} 
-
-	.textWrap p {
-		margin: 0;
-		padding: 0;
-	}
-
-	.textWeek .fourBookswrap {
-	width: 100%;
-	height: 70%;
+	padding: 0px;
 	background-color: ghostwhite;
-	justify-content: center;
-	align-items: center;
 	}
 
-	.fourBooks {
-	margin-right: 0px;
-	width: 80%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
-	.fourBooks .item {
-	width: 25%;
-	height: 50%;
+	.textWeek * {
+	padding: 5px;
 	}
 
-.fourBooks .item img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;*/
-}
+	.textWeek p {
+	padding-right: 10px;
+	}
 
-	/*.fourBooks {
-		width: 100%;
-		height: 50%;
-		top: 0;
-	}*/
-
-
+	.textWeek h1 i {
+	padding-bottom: 20px;
+	font-size: 1;
+	}
 
 }
+
+
+
+
+
+
 
 
 
