@@ -60,7 +60,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background-color: rebeccapurple;
 }
 
 .mainBooks img {
@@ -85,8 +84,12 @@
 		padding: 0px;
 	}
 
+	.mainBooks div:first-child {
+		display: none;
+	}
+
 	.mainBooks img {
-		width: 90%;
+		width: 80%;
 		display: block;
 		margin: 0 auto;
 
@@ -96,14 +99,14 @@
 @media (max-width: 860px) {
 
 	.headline {
-	width: 50%;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	}
 
 	.mainBooks {
-		width: 50%;
+		width: 60%;
 	}
 
 }
@@ -111,7 +114,7 @@
 @media (max-width: 680px) {
 
 	.firstScreen {
-	height: 550px;
+	height: 70vh;	
 	display: flex;
 	flex-direction: column;
     justify-content: space-between;
@@ -149,32 +152,60 @@
 
 	.mainBooks {
 		width: 100%;
-		height: 70%;
+		/*height: 70%;*/
 		order: 1;
+	}
+
+	.mainBooks .mainBook {
+		align-self: center;
+		margin-top: 100px;	
 	}
 
 }
 
-@media (max-width: 515px) {
-	.mainBooks div:first-child {
-		display: none;
+@media (max-width: 570px) {
+	.mainBooks .mainBook {
+		align-self: center;
+		margin-top: 140px;	
 	}
 
-	.mainBooks .mainBook {
-		width: 40%;
+}
+
+/*@media (max-width: 515px) {
+	/*.mainBooks div:nth-child(2) {
+		display: none;
+	}*/
+
+/*	.mainBooks .mainBook {
+		width: 70%;
 	}
 
 	.mainBooks .mainBook h4, h5 {
 		font-size: 90%;
 	}
-}
+}*/
 
- @media (max-width: 360px) {
+ /*@media (max-width: 360px) {
 
 	.mainBook strong , i {
 		font-size: 80%;
 	}
-}
+}*/
+
+@media (max-width: 450px) {
+
+	.mainBooks {
+		height: 60%;
+	}
+
+	.mainBooks .mainBook {
+		width: 75%;
+	}
+	.mainBooks div:last-child {
+		display: none;
+	}
+
+} 
 
 
 

@@ -103,9 +103,9 @@
 .comics {
 	margin-top: 150px;
 	width: 80%;
-	height: 400px;
+	height: 480px;
 	display: flex;
-	border: 2px solid darkred;
+	box-sizing: border-box;
 }
 
 /*text*/
@@ -116,12 +116,11 @@
 	border: 2px solid rebeccapurple;
 	display: flex;
 	flex-direction: column;
-	align-items: ;
+	box-sizing: border-box;
 }
 
-.txtComic h2 {
+.txtComic h1 {
 	font-family: Verdana;
-	font-size: 2rem;
 	color: #23233d;
 	font-style: bold;
 	margin: 0;
@@ -130,10 +129,23 @@
 
 .txtComic p {
 	padding-left: 40px;
+	padding-right: 5px;
+	padding-bottom: 40px;
 }
 
-.txtComic #purpleButton {
-	margin-top: 30px;
+.txtComic #purpleButton2 {
+	min-width:80px;
+	max-width: 120px;
+	padding: 15px 25px;
+	margin-right: 27px;
+	background-color: #23233d; 
+  	border: none;
+  	color: white;
+  	align-self: flex-end;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-weight: 700;
+  	font-size: 1.03em;
 }
 
 /*firstComic*/
@@ -142,6 +154,7 @@
 	width: 13%;
 	height: 100%;
 	border: 2px solid green;
+	box-sizing: border-box;
 }
 
 .comics .firstComic img {
@@ -156,6 +169,7 @@
 	width: 32%;
 	height: 100%;
 	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 .comics .secondComic img {
@@ -164,30 +178,60 @@
 	height: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 920px) {
 
 	/*comic/flex*/
 	.comics {
-	margin-top: 350px;
-	width: 90%;
-	height: 80vh;
+	margin-top: 550px;
+	width: 80%;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
-	border: 2px solid darkred;
     }
 
     /*text*/
 
     .comics .txtComic {
-   	order: 2; 	
 	width: 100%;
-	height: 55%;
-	border: 2px solid rebeccapurple;
 	display: flex;
 	flex-direction: column;
-    }
+	order: 2;
+	}
 
-    .comics .txtComic h2{
+	.txtComic h1 {
+	padding: 5px;
+	}
+
+	.txtComic p {
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	}
+
+	#purpleButton2 {
+		margin-bottom: 10px;
+	}
+
+
+
+	/*first comic*/
+	.comics .firstComic {
+		width: 100%;
+		height: 20vh;
+		order: 1;
+	}
+
+	/*second comic*/
+
+	.comics .secondComic {
+		width: 100%;
+		height: 20vh;
+		order: 3;
+	}
+
+    
+
+    /*.comics .txtComic h2{
     	font-size: 1.1rem;
     	padding-bottom: 10px;
     }
@@ -197,7 +241,7 @@
     }
 
     /*comic images*/
-    .comics .firstComic {
+   /* .comics .firstComic {
     order: 1;	
 	width: 100%;
 	height: 20%;
@@ -209,7 +253,7 @@
 	width: 100%;
 	height: 25%;
 	border: 2px solid green;
-    }
+    }*/
 	
 }
 

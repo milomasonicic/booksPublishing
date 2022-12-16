@@ -1,8 +1,20 @@
 
-  .SearchBox {
+
+/*title that goes under searchBar*/
+
+.title h1 {
+	text-align: center;
+	text-transform: capitalize;
+	vertical-align: middle;
+	margin-top: 120px;
+	color: #23233d;
+}
+
+/*searchBox*/
+
+ .SearchBox {
 	width: 60%;
 	height: 300px;
-	border: 2px solid darkred;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -62,7 +74,7 @@ input[type="text"] {
  	padding: 1px;
  	text-align: center;
  	color: white;
- 	font-size: 3.8vw;
+ 	font-size: 55px;
  }
 
 /*color Button*/
@@ -90,9 +102,102 @@ input[type="text"] {
 
 /*searchBar*/
 
-@media (max-width:750px) {
+
+
+
+@media (max-width:1330px) {
+
+	.inputTitle h1 {
+ 	margin-top: 10px;
+ 	padding: 0px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 4vw;
+ 	}
 	
 }
+
+@media (max-width:800px) {
+
+	.inputTitle h1 {
+ 	margin-top: 25px;
+ 	padding: 0px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 3.7vw;
+ 	}	
+}
+
+@media (max-width:750px) {
+	.SearchBox {
+	width: 90%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.SearchBox .genreButtons .categoryBox {
+	min-width: 40px;
+	height: 35%;
+	background-color: green;
+	border: 1px solid white;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	}
+
+	.SearchBox .genreButtons .categoryBox a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.7em;
+	padding: 2px;	
+	}
+	.inputTitle h1 {
+ 	margin-top: 35px;
+ 	padding: 0px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 5.2vw;
+ 	}
+
+}
+
+@media (max-width:550px) {
+
+	.inputTitle h1 {
+ 	margin-top: 45px;
+ 	padding: 0px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 25px;
+ 	}
+
+ 	.SearchBox input {
+	position: relative;
+	width: 90%;
+	height: 25px;
+	padding: 0;
+	margin: 0 auto;
+	}
+
+}
+
+@media (max-width:415px) {
+
+	.inputTitle h1 {
+ 	margin-top: 50px;
+ 	padding: 0px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 20px;
+ 	}
+
+}
+
+
 
 
 

@@ -1,0 +1,52 @@
+.ourTeam {
+	width: 80%;
+	margin-top: 100px;
+}
+
+.ourTeam h1 {
+	text-align: center;
+
+}
+
+.teamGrid {
+	margin: 70px auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	/*grid-gap: 20px;*/
+}
+
+.teamGrid .teamCard {
+	width: 220px;
+	height: 280px;
+	margin-top: 30px;
+	margin-left: 15px;
+	background-color: ghostwhite;
+	border-top: 10px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	color: #23233d;
+}
+
+.teamCard p {
+	margin: 0;
+}
+
+.teamCard p:nth-child(2) {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.teamCard p:nth-child(3) {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.teamCard img {
+	width: 130px;
+	height: 130px;
+	border-radius: 360px;
+	display: block;
+	margin: 25px auto;
+}
