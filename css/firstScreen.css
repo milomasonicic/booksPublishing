@@ -114,7 +114,7 @@
 @media (max-width: 680px) {
 
 	.firstScreen {
-	height: 70vh;	
+	height: 95vh;	
 	display: flex;
 	flex-direction: column;
     justify-content: space-between;
@@ -122,10 +122,6 @@
 
 	.headline h1:first-child {
 	display: none;
-	}
-
-	.headline p {
-		display: none;
 	}
 
 	#mainButton {
@@ -143,7 +139,7 @@
 
 	.headline {
 	width: 100%;
-	height: 30%;
+	height: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -152,60 +148,51 @@
 
 	.mainBooks {
 		width: 100%;
-		/*height: 70%;*/
+		height: 60%;
 		order: 1;
 	}
 
 	.mainBooks .mainBook {
 		align-self: center;
-		margin-top: 100px;	
+		margin-top: 20px;	
+	}
+
+	.mainBooks img {
+	width: 60%;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+
 	}
 
 }
 
-@media (max-width: 570px) {
-	.mainBooks .mainBook {
-		align-self: center;
-		/*margin-top: 140px;*/	
+
+
+@media (max-width: 500px) {
+
+	.firstScreen {
+	height: 75vh;	
 	}
 
-}
-
-/*@media (max-width: 515px) {
-	/*.mainBooks div:nth-child(2) {
-		display: none;
-	}*/
-
-/*	.mainBooks .mainBook {
-		width: 70%;
-	}
-
-	.mainBooks .mainBook h4, h5 {
-		font-size: 90%;
-	}
-}*/
-
- /*@media (max-width: 360px) {
-
-	.mainBook strong , i {
-		font-size: 80%;
-	}
-}*/
-
-@media (max-width: 450px) {
-
-	.mainBooks {
-		height: 60%;
+	.headline p {
+	display: none;
 	}
 
 	.mainBooks .mainBook {
-		width: 75%;
+		width: 65%;
+		margin-top: 60px;
 	}
 	.mainBooks div:last-child {
 		display: none;
 	}
 
 } 
+
+@media (max-width: 450px) {
+	.headline p {
+	display: none;
+	}
+}
 
 
 

@@ -99,7 +99,7 @@
 
 	.contact {
 	width: 100%;
-	height: 70vh;
+	height: 105vh;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -107,7 +107,7 @@
 
 	.contact .form {
 	width: 100%;
-	height: 65vh;
+	height: 75vh;
 	padding: 0px 0px;
 	order: 2;
 	display: flex;
@@ -130,7 +130,7 @@
 	}
 
 	.form input:first-child {
-	margin-top: -70px;
+	margin-top: 80px;
 	}
 
 	.form * {
@@ -139,7 +139,7 @@
 
 	.contact .contactText {
 	width: 100%;
-	height: 25vh;
+	height: 30vh;
 	/*padding: 50px 0px;*/
 	order: 1;
 	text-align: center;
@@ -149,37 +149,14 @@
 @media (max-width: 405px) {
 
 	.contact {
-	height: 50vh;
+		height: 90vh;
 	}
-
 	.contactText p {
 	display: none;
 	}
 
-	.contact .form {
-		height: 40vh;
-	}
-
-	.contact .contactText {
-		height: 20vh;
-	}
-
 	.form input:first-child {
-	margin-top: -140px;
-	}
-
-	.contactText h2 {
-		display: none;
-	}
-
-	.contactText h1 {
-		font-size: 35px;
-		margin-top: 70px;
-	}
-
-	.contactText a {
-	padding-left: 1px;
-	padding-right: 1px;
+	margin-top: 0px;
 	}
 
 }
