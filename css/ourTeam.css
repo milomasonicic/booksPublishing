@@ -13,14 +13,13 @@
 	width: 80%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	/*grid-gap: 20px;*/
+	grid-gap: 20px;
 }
 
 .teamGrid .teamCard {
 	width: 220px;
 	height: 280px;
-	margin-top: 30px;
-	margin-left: 15px;
+	margin: 0 auto;
 	background-color: ghostwhite;
 	border-top: 10px solid black;
 	box-sizing: border-box;
@@ -50,3 +49,27 @@
 	display: block;
 	margin: 25px auto;
 }
+
+
+
+
+@media (max-width: 1280px) {
+	.teamGrid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 1070px) {
+	.teamGrid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 700px) {
+	.teamGrid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+

@@ -166,7 +166,7 @@
 @media (max-width: 570px) {
 	.mainBooks .mainBook {
 		align-self: center;
-		margin-top: 140px;	
+		/*margin-top: 140px;*/	
 	}
 
 }

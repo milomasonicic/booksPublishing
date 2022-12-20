@@ -1,0 +1,57 @@
+.writersNames {
+	width: 80%;
+}
+
+.writersNames h2 {
+	text-align: center;
+	margin-top: 30px;
+	color: #23233d;
+}
+
+.writersNames p {
+	margin: 0;
+	padding-bottom: 60px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.writersNames .writersGrid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.boxName {
+	margin: 10px auto;
+}
+
+.boxName ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.boxName h3 strong {
+	color: #23233d;
+}
+
+.boxName ul li a {
+	color: black;
+	font-style: italic;
+}
+
+@media (max-width: 580px) {
+
+	.writersNames .writersGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 380px) {
+
+	.writersNames .writersGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	}
+}
+
