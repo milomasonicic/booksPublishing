@@ -195,6 +195,7 @@ nav ul li a:hover {
 
 	.footerContent {
 		flex-direction: column;
+		margin-top: 300px;
 	}
 
 }

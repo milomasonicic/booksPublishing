@@ -99,7 +99,7 @@
 
 	.contact {
 	width: 100%;
-	height: 105vh;
+	height: 680px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -107,7 +107,6 @@
 
 	.contact .form {
 	width: 100%;
-	height: 75vh;
 	padding: 0px 0px;
 	order: 2;
 	display: flex;
@@ -130,16 +129,20 @@
 	}
 
 	.form input:first-child {
-	margin-top: 80px;
+	margin-top: 150px;
 	}
 
 	.form * {
 	max-width: 70vw;
 	}
 
+	.form textarea {
+		height: 140px;
+	}
+
 	.contact .contactText {
 	width: 100%;
-	height: 30vh;
+	height: 150px;
 	/*padding: 50px 0px;*/
 	order: 1;
 	text-align: center;
@@ -148,15 +151,12 @@
 
 @media (max-width: 405px) {
 
-	.contact {
-		height: 90vh;
-	}
 	.contactText p {
 	display: none;
 	}
 
 	.form input:first-child {
-	margin-top: 0px;
+	margin-top: 80px;
 	}
 
 }

@@ -15,7 +15,7 @@
 .headline h1:first-child {
 	padding-left: 10px;
 	color: white;
-	font-size: 2.8em;
+	font-size: 40px;
 }
 
 .headline i {
@@ -106,15 +106,14 @@
 	}
 
 	.mainBooks {
-		width: 60%;
+	width: 60%;
 	}
 
 }
 
 @media (max-width: 680px) {
 
-	.firstScreen {
-	height: 95vh;	
+	.firstScreen {	
 	display: flex;
 	flex-direction: column;
     justify-content: space-between;
@@ -139,7 +138,7 @@
 
 	.headline {
 	width: 100%;
-	height: 40%;
+	height: 200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -148,7 +147,7 @@
 
 	.mainBooks {
 		width: 100%;
-		height: 60%;
+		height: 350px;
 		order: 1;
 	}
 
@@ -170,9 +169,6 @@
 
 @media (max-width: 500px) {
 
-	.firstScreen {
-	height: 75vh;	
-	}
 
 	.headline p {
 	display: none;
