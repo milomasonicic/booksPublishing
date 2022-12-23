@@ -48,9 +48,8 @@
 }
 
 #mainButton:hover {
-	background-image: linear-gradient(#23244d, #23233d, #23211d);
+	background-color: transparent;
 	color: #FF1243;
-
 }
 
 
@@ -89,7 +88,7 @@
 	}
 
 	.mainBooks img {
-		width: 80%;
+		width: 65%;
 		display: block;
 		margin: 0 auto;
 
@@ -157,15 +156,13 @@
 	}
 
 	.mainBooks img {
-	width: 60%;
+	width: 50%;
 	border-top-right-radius: 40px;
 	border-top-left-radius: 40px;
 
 	}
 
 }
-
-
 
 @media (max-width: 500px) {
 
@@ -182,13 +179,13 @@
 		display: none;
 	}
 
+	.mainBooks img {
+	width: 70%;
+	}
+
 } 
 
-@media (max-width: 450px) {
-	.headline p {
-	display: none;
-	}
-}
+
 
 
 

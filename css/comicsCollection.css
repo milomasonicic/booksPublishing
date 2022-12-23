@@ -11,7 +11,7 @@
 
 .comics .txtComic {
 	width: 55%;
-	height: 100%;
+	/*height: 100%;*/
 	border: 2px solid rebeccapurple;
 	display: flex;
 	flex-direction: column;
@@ -47,11 +47,15 @@
   	font-size: 1.03em;
 }
 
+#purpleButton2:hover {
+	background-color: transparent;
+	color: #23233d ;
+}
+
 /*firstComic*/
 
 .comics .firstComic  {
 	width: 13%;
-	height: 100%;
 	border: 2px solid green;
 	box-sizing: border-box;
 }
@@ -66,7 +70,6 @@
 
 .comics .secondComic {
 	width: 32%;
-	height: 100%;
 	border: 1px solid black;
 	box-sizing: border-box;
 }
