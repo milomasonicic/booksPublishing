@@ -97,7 +97,8 @@
 	padding: 15px 25px;
 	margin-right: 27px;
 	background-color: #23233d; 
-  	border: none;
+	border: 1px solid #23233d;
+  	box-sizing: border-box;
   	color: white;
   	align-self: flex-end;
   	text-decoration: none;
@@ -108,9 +109,8 @@
 
 #purpleButton:hover {
 	background-color: transparent;
-	color: #23233d ;
-	border: 1px solid black;
-	box-sizing: border-box;
+	color: #23233d;
+	border-color: black;
 }
 
 /*responsive*/
