@@ -109,6 +109,8 @@
 #purpleButton:hover {
 	background-color: transparent;
 	color: #23233d ;
+	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 /*responsive*/
