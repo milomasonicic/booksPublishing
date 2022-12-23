@@ -21,7 +21,7 @@
 .txtComic h1 {
 	font-family: Verdana;
 	color: #23233d;
-	font-style: bold;
+	font-weight: 700;
 	margin: 0;
 	padding: 40px;
 }
@@ -128,32 +128,6 @@
 		height: 200px;
 		order: 3;
 	}
-
-    
-
-    /*.comics .txtComic h2{
-    	font-size: 1.1rem;
-    	padding-bottom: 10px;
-    }
-
-    .comics .txtComic p {
-    	font-size: 0.8rem;
-    }
-
-    /*comic images*/
-   /* .comics .firstComic {
-    order: 1;	
-	width: 100%;
-	height: 20%;
-	border: 2px solid green;
-    }
-
-    .comics .secondComic  {
-    order: 3;	
-	width: 100%;
-	height: 25%;
-	border: 2px solid green;
-    }*/
 	
 }
 

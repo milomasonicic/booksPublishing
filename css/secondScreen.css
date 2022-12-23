@@ -127,13 +127,7 @@
 	}
 
 	/*winner photos style*/
-
-	.prizeWinners .winnersPhoto img {
-		object-fit: center;
-		width: 100%;
-		/*height: 100%;*/
-	}
-
+	
 	.prizeWinners .winnersPhoto:first-child {
 		height: 50%;
 		width: 33%;
