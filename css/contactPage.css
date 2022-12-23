@@ -23,6 +23,7 @@
 	padding: 5px;
 	margin: 10px auto;
 	border: 1px solid rgba(255, 255, 255, 0.8);	
+	color: ghostwhite;
 }
 
 .form input:first-child {
@@ -41,6 +42,13 @@
   	display: block;
   	font-weight: 700;
   	margin: 0 auto;
+}
+
+.form button:hover {
+	background-color: transparent;
+	color: #FF1243;
+	border: 1px solid white;
+	box-sizing: border-box;
 }
 
 /*contactText*/

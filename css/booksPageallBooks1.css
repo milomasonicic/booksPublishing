@@ -60,6 +60,10 @@
 	color: whitesmoke;
 }
 
+.txtPrice button:hover {
+	background-color: #23211d;
+}
+
 /*load more button*/
 
 .loadMore button {
@@ -71,6 +75,10 @@
 	font-size: 14px;
 	font-weight: 700;
 	border: none;
+}
+
+.loadMore button:hover {
+	background-color: #23211d;
 }
 
 @media (max-width: 1300px) {

@@ -77,6 +77,10 @@ input[type="text"] {
  	font-size: 55px;
  }
 
+ .SearchBox .genreButtons .categoryBox:hover {
+ 	transform: scale(1.1);
+ }
+
 /*color Button*/
 
 #orangeButton {

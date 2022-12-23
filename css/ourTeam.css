@@ -21,7 +21,7 @@
 	height: 280px;
 	margin: 0 auto;
 	background-color: ghostwhite;
-	border-top: 10px solid black;
+	border-top: 6px solid rgba(0, 0, 0, 0.8);
 	box-sizing: border-box;
 	text-align: center;
 	color: #23233d;
